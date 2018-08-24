@@ -79,9 +79,6 @@ jQuery(document).ready(function ($) {
                     </li>
                 </ul>
             </div>
-            <div class="w3l_header_right1">
-                <h2><a href="mail.html">Contatos</a></h2>
-            </div>
             <div class="clearfix"> </div>
         </div>
         <!-- script-for sticky-nav -->
@@ -107,16 +104,8 @@ jQuery(document).ready(function ($) {
                 </div>
                 <div class="w3ls_logo_products_left1">
                     <ul class="special_items">
-                        <li><a href="events.html">Events</a><i>/</i></li>
-                        <li><a href="about.html">About Us</a><i>/</i></li>
-                        <li><a href="products.html">Best Deals</a><i>/</i></li>
-                        <li><a href="services.html">Services</a></li>
-                    </ul>
-                </div>
-                <div class="w3ls_logo_products_left1">
-                    <ul class="phone_email">
-                        <li><i class="fa fa-phone" aria-hidden="true"></i>(+0123) 234 567</li>
-                        <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">store@grocery.com</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i>(XX) XXXX-XXXX</li>
+                        <li><i class="fa fa-envelope-o" aria-hidden="true"></i>TESTE@TESTE.COM</li>
                     </ul>
                 </div>
                 <div class="clearfix"> </div>
@@ -128,7 +117,7 @@ jQuery(document).ready(function ($) {
             <div class="container">
                 <ul>
                     <li><img src="Images/home.png" width="25" height="20"><a href="index.html">Inicio</a><span>|</span></li>
-                    <li><a href="frios.html">Frios</a><span>|</span></li>
+                    <li>Frios<span>|</span></li>
                     <li>Carnes</li>
                 </ul>
             </div>
@@ -150,10 +139,37 @@ jQuery(document).ready(function ($) {
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                         <ul class="nav navbar-nav nav_1">
-                            <li><a href="alimentacao.html">Alimentação</a></li>
-                            <li><a href="laticinios.html">Laticínios</a></li>
                             <li class="dropdown mega-dropdown active">
-                                <a href="hortifruti.html" class="dropdown-toggle" data-toggle="dropdown">Hortifruti<span class="caret"></span></a>				
+                                <a class="dropdown-toggle" data-toggle="dropdown">Alimentação<span class="caret"></span></a>
+                                <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
+                                    <div class="w3ls_vegetables">
+                                        <ul>	
+                                            <li><a href="#">Arroz</a></li>
+                                            <li><a href="#">Feijão</a></li>
+                                            <li><a href="#">Sal</a></li>
+                                            <li><a href="#">Açucar</a></li>
+                                            <li><a href="#">Massas</a></li>
+                                            <li><a href="#">Oléos</a></li>
+                                            <li><a href="laticinios.html">Laticíneos</a></li>
+                                            <li><a href="padaria.html">Pães</a></li>
+                                        </ul>
+                                    </div>                  
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown">Frios<span class="caret"></span></a>
+                                <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
+                                    <div class="w3ls_vegetables">
+                                        <ul>
+                                            <li><a href="carnes.html">Carnes</a></li>
+                                            <li><a href="#">Aves</a></li>
+                                            <li><a href="#">Peixes</a></li>
+                                        </ul>
+                                    </div>                  
+                                </div>	
+                            </li>
+                            <li class="dropdown mega-dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown">Hortifruti<span class="caret"></span></a>				
                                 <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
                                     <div class="w3ls_vegetables">
                                         <ul>	
@@ -163,10 +179,8 @@ jQuery(document).ready(function ($) {
                                     </div>                  
                                 </div>				
                             </li>
-                            <li><a href="limpeza.html">Produtos de limpeza</a></li>
-                            <li><a href="higiene.html">Higiene</a></li>
                             <li class="dropdown">
-                                <a href="bebidas.html" class="dropdown-toggle" data-toggle="dropdown">Bebidas<span class="caret"></span></a>
+                                <a class="dropdown-toggle" data-toggle="dropdown">Bebidas<span class="caret"></span></a>
                                 <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
                                     <div class="w3ls_vegetables">
                                         <ul>
@@ -176,19 +190,9 @@ jQuery(document).ready(function ($) {
                                     </div>                  
                                 </div>	
                             </li>
+                            <li><a href="limpeza.html">Produtos de limpeza</a></li>
+                            <li><a href="higiene.html">Higiene</a></li>
                             <li><a href="pet.html">Pet</a></li>
-                            <li class="dropdown">
-                                <a href="frios.html" class="dropdown-toggle" data-toggle="dropdown">Frios<span class="caret"></span></a>
-                                <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
-                                    <div class="w3ls_vegetables">
-                                        <ul>
-                                            <li><a href="carnes.html">Carnes</a></li>
-                                            <li><a href="snaks.html">Snaks</a></li>
-                                        </ul>
-                                    </div>                  
-                                </div>	
-                            </li>
-                            <li><a href="padaria.html.html">Pães e bolos</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
@@ -643,77 +647,27 @@ jQuery(document).ready(function ($) {
             <div class="clearfix"></div>
         </div>
         <!-- //banner -->
-        <!-- newsletter -->
-        <div class="newsletter">
-            <div class="container">
-                <div class="w3agile_newsletter_left">
-                    <h3>sign up for our newsletter</h3>
-                </div>
-                <div class="w3agile_newsletter_right">
-                    <form action="#" method="post">
-                        <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {
-                                    this.value = 'Email';
-                                }" required="">
-                        <input type="submit" value="subscribe now">
-                    </form>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-        <!-- //newsletter -->
         <!-- footer -->
         <div class="footer">
             <div class="container">
+                
                 <div class="col-md-3 w3_footer_grid">
-                    <h3>information</h3>
-                    <ul class="w3_footer_grid_list">
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="products.html">Best Deals</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="short-codes.html">Short Codes</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 w3_footer_grid">
-                    <h3>policy info</h3>
+                    <h3>Informações</h3>
                     <ul class="w3_footer_grid_list">
                         <li><a href="faqs.html">FAQ</a></li>
-                        <li><a href="privacy.html">privacy policy</a></li>
-                        <li><a href="privacy.html">terms of use</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 w3_footer_grid">
-                    <h3>what in stores</h3>
-                    <ul class="w3_footer_grid_list">
-                        <li><a href="pet.html">Pet Food</a></li>
-                        <li><a href="frozen.html">Frozen Snacks</a></li>
-                        <li><a href="kitchen.html">Kitchen</a></li>
-                        <li><a href="products.html">Branded Foods</a></li>
-                        <li><a href="household.html">Households</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 w3_footer_grid">
-                    <h3>twitter posts</h3>
-                    <ul class="w3_footer_grid_list1">
-                        <li><label class="fa fa-twitter" aria-hidden="true"></label><i>01 day ago</i><span>Non numquam <a href="#">http://sd.ds/13jklf#</a>
-                                eius modi tempora incidunt ut labore et
-                                <a href="#">http://sd.ds/1389kjklf#</a>quo nulla.</span></li>
-                        <li><label class="fa fa-twitter" aria-hidden="true"></label><i>02 day ago</i><span>Con numquam <a href="#">http://fd.uf/56hfg#</a>
-                                eius modi tempora incidunt ut labore et
-                                <a href="#">http://fd.uf/56hfg#</a>quo nulla.</span></li>
+                        <li><a href="privacy.html">Políticas de provacidade</a></li>
+                        <li><a href="privacy.html">Termos de uso</a></li>
                     </ul>
                 </div>
                 <div class="clearfix"> </div>
                 <div class="agile_footer_grids">
                     <div class="col-md-3 w3_footer_grid agile_footer_grids_w3_footer">
                         <div class="w3_footer_grid_bottom">
-                            <h5>connect with us</h5>
+                            <h5>conecte-se conosco</h5>
                             <ul class="agileits_social_icons">
                                 <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                                 <li><a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="#" class="dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
