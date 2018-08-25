@@ -44,20 +44,59 @@ Comite 100% inutiu-->
 
     <body>
         <!-- header -->
-        <div class="agileits_header">
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td><center><h1 id="h1.-bootstrap-heading">Cadastrar Produtos<a class="anchorjs-link" href="#h1.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h1></center></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="container" style="background-color:#118F82"><div class="input-group">
-				<span class="input-group-addon">$</span>
-					<input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-				<span class="input-group-addon">.00</span>
-			</div></div>
+        <div class="container-fluid" style="background-color: #078B7C; font-size: 40px;"><center>Cadastrar Produtos</center></div>
+
+
+        <div class="container">
+            <div class="w3_login">
+                <div class="w3_login_module">
+                    <div class="module form-module">
+                        <div class="form">
+                        </div>
+                        <div class="form">
+                            <form action="#" method="post">
+                                <input type="text" name="nome" placeholder="Nome do produto" required=" ">
+                                <input class="form-control" type="number" name="valorU" placeholder="Valor unitario do produto" required=" ">
+                                <br>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" id="descricao" placeholder="Descrição do produto"></textarea>
+                                </div>
+                                <input class="form-control" type="number" name="peso" placeholder="Peso do produto em kg" required=" ">
+                                <br>
+                                <input type="text" name="marca" placeholder="Marca" required=" ">
+                                <select class="form-control" id="categoria" name="categoria">
+                                    <option value="#">< Selecione uma categoria ></option>
+                                    <optgroup label="Alimentação">
+                                        <option value="arroz">Arroz</option>
+                                        <option value="feijao">Feijão</option>
+                                        <option value="sal">Sal</option>
+                                        <option value="acucar">Açucar</option>
+                                        <option value="massas">Massas</option>
+                                        <option value="oleo">Oléo</option>
+                                        <option value="laticinios">Laticínios</option>
+                                        <option value="paes">Pães</option>
+                                    <optgroup label="Frios">
+                                        <option value="carnes">Carnes</option>
+                                        <option value="aves">Aves</option>
+                                        <option value="peixes">Peixes</option>
+                                    <optgroup label="Hortifruti">
+                                        <option value="vegetais">Vegetais</option>
+                                        <option value="frutas">Frutas</option>
+                                    <optgroup label="Bebidas">
+                                        <option value="alcoolicas">Alcoólicas</option>
+                                        <option value="naoalcoolicas">Não alcoólicas</option>
+                                    <optgroup label="Outras">
+                                        <option value="limpeza">Produtos de limpeza</option>
+                                        <option value="higiene">Higiene</option>
+                                        <option value="pet">Pet</option>
+                                </select>
+                                <br>
+                                <input type="submit" value="Cadastrar">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
     </body>
 </html>
 
