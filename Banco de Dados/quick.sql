@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 23-Ago-2018 às 16:58
+-- Generation Time: 26-Ago-2018 às 18:27
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -203,7 +203,9 @@ CREATE TABLE `produto` (
   `nomeProduto` varchar(60) NOT NULL,
   `valorUnitario` double NOT NULL,
   `descricaoProduto` varchar(255) NOT NULL,
-  `peso` double NOT NULL
+  `peso` double NOT NULL,
+  `imagem` varchar(40) NOT NULL,
+  `data` datetime NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
