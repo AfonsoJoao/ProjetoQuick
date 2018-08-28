@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 26-Ago-2018 às 18:27
+-- Generation Time: 28-Ago-2018 às 22:47
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -85,11 +85,18 @@ CREATE TABLE `cliente` (
   `dataNascimento` date NOT NULL,
   `sexo` varchar(10) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `senha` varchar(30) NOT NULL,
+  `senhaCliente` varchar(30) NOT NULL,
   `cpf` varchar(14) NOT NULL,
   `rg` varchar(14) NOT NULL,
   `telefone` varchar(14) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `cliente`
+--
+
+INSERT INTO `cliente` (`idCliente`, `nome`, `dataNascimento`, `sexo`, `email`, `senhaCliente`, `cpf`, `rg`, `telefone`) VALUES
+(1, 'Mateus Ferreira dos Santos', '2018-08-28', 'masc', 'mateusferreira058@gmail.com', 'mateus', '612.245.523-13', '2333466798989', '981276612');
 
 -- --------------------------------------------------------
 
@@ -388,7 +395,7 @@ ALTER TABLE `cidade`
 -- AUTO_INCREMENT for table `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `idCliente` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `idCliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `endereco`
 --
