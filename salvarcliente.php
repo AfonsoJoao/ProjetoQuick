@@ -33,8 +33,9 @@ $sql = "INSERT INTO cliente"
 $query = mysqli_query($con, $sql);
 
 if ($query) {
-    echo "<script>alert('Cadastro realizado com sucesso') </script>";
+    echo "<script> window.location= 'index.html'; alert('Cadastro realizado com sucesso') </script>";
+
         
 }  else {
-    echo "<script>alert('Erro na realização do cadastro') </script>";
+    echo "<script>window.location= 'login.html'; alert('Erro na realização do cadastro') </script>";
 }
