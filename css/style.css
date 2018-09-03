@@ -86,10 +86,10 @@ input[type="submit"],#PPMiniCart .minicart-submit,.w3ls_vegetables ul li a,input
 }
 .w3l_offers a{
     font-size: 1.2em;
-    color: #fff;
+    color: #212121;
     text-decoration: none;
     padding: .5em 3em;
-    background:#078B7C;
+    background:#212121;
     display:block;
 }
 .w3l_search{

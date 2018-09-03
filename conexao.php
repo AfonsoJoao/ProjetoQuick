@@ -5,9 +5,9 @@ $usuario = "root";
 $senha = "";
 $banco = "quick";
 
-$con = new mysqli($servidor, $usuario, $senha, $banco);
+$mysqli = new mysqli($servidor, $usuario, $senha, $banco);
 
-if ($con) {
+if ($mysqli) {
     echo ("");
 } else {
     echo ("");

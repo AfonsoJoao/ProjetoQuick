@@ -32,12 +32,12 @@ Comite 100% inutiu-->
         <script type="text/javascript" src="js/move-top.js"></script>
         <script type="text/javascript" src="js/easing.js"></script>
         <script type="text/javascript">
-jQuery(document).ready(function ($) {
-    $(".scroll").click(function (event) {
-        event.preventDefault();
-        $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
-    });
-});
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+                });
+            });
         </script>
         <!-- start-smoth-scrolling -->
     </head>
@@ -46,7 +46,7 @@ jQuery(document).ready(function ($) {
         <!-- header -->
         <div class="agileits_header">
             <div class="w3l_offers">
-                <a href="products.html">Ofertas do dia!</a>
+                <a>-------------------</a>
             </div>
             <div class="w3l_search">
                 <form action="#" method="post">
@@ -74,8 +74,22 @@ jQuery(document).ready(function ($) {
                                 <ul class="dropdown-menu drp-mnu">
                                     <li><a href="login.html">Entrar</a></li> 
                                     <li><a href="login.html">Cadastrar</a></li>
+                                </ul>
+                            </div>                  
+                        </div>	
+                    </li>
+                </ul>
+            </div>
+            <div class="w3l_header_right">
+                <ul>
+                    <li class="dropdown profile_details_drop">
+                        <a><img src="images/icone-branco.png"/></a>
+                        <div class="mega-dropdown-menu">
+                            <div class="w3ls_vegetables">
+                                <ul class="dropdown-menu drp-mnu">
                                     <li><a href="short-codes.html">Atalho</a></li>
-                                    <li><a href="CadastrarProduto.php">Cadastro</a></li>
+                                    <li><a href="CadastrarProduto.php">Cadastrar produtos</a></li>
+                                    <li><a href="ProdutosCadastrados.php">Produtos cadastrados</a></li>
                                 </ul>
                             </div>                  
                         </div>	
@@ -389,11 +403,11 @@ jQuery(document).ready(function ($) {
             </div>
         </div>
         <!-- //top-brands -->
-        
+
         <!-- footer -->
         <div class="footer">
             <div class="container">
-                
+
                 <div class="col-md-3 w3_footer_grid">
                     <h3>Informações</h3>
                     <ul class="w3_footer_grid_list">
@@ -425,18 +439,18 @@ jQuery(document).ready(function ($) {
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
         <script>
-                            $(document).ready(function () {
-                                $(".dropdown").hover(
-                                        function () {
-                                            $('.dropdown-menu', this).stop(true, true).slideDown("fast");
-                                            $(this).toggleClass('open');
-                                        },
-                                        function () {
-                                            $('.dropdown-menu', this).stop(true, true).slideUp("fast");
-                                            $(this).toggleClass('open');
-                                        }
-                                );
-                            });
+            $(document).ready(function () {
+                $(".dropdown").hover(
+                        function () {
+                            $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                            $(this).toggleClass('open');
+                        },
+                        function () {
+                            $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                            $(this).toggleClass('open');
+                        }
+                );
+            });
         </script>
         <!-- here stars scrolling icon -->
         <script type="text/javascript">

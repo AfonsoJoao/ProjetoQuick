@@ -105,6 +105,7 @@ jQuery(document).ready(function ($) {
             </div>
         </div>
         <!-- //header -->
+        
         <!-- products-breadcrumb -->
         <div class="products-breadcrumb">
             <div class="container">
@@ -117,8 +118,9 @@ jQuery(document).ready(function ($) {
         </div>
         <!-- //products-breadcrumb -->
         <div class="container">
+            
             <div class="w3_login">
-                <div class="w3_login_module">
+                <div class="w3_login_module"><h3 class="w3l_fruit">Cadastrar produtos</h3>
                     <div class="module form-module">
                         <div class="form">
                         </div>

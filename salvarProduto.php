@@ -16,6 +16,7 @@ $nomeProduto = $_POST ['nomeProduto'];
 $valorUnitario = $_POST ['valorUnitario'];
 $descricaoProduto = $_POST ['descricaoProduto'];
 $marca = $_POST ['marca'];
+$categoria = $_POST ['categoria'];
 $peso = $_POST ['peso'];
 $imagem = $_FILES['imagem'];
 
@@ -24,6 +25,7 @@ $imagem = $_FILES['imagem'];
                 . "valorUnitario,"
                 . "descricaoProduto,"
                 . "marca,"
+                . "categoria,"
                 . "peso,"
                 . "imagem,"
                 . "data) values"
@@ -31,11 +33,12 @@ $imagem = $_FILES['imagem'];
                 . "'$valorUnitario',"
                 . "'$descricaoProduto',"
                 . "'$marca',"
+                . "'$categoria',"
                 . "'$peso',"
                 . "'$novo_nome',"
                 . "NOW())";
 
-        $query = mysqli_query($con, $sql);
+        $query = mysqli_query($mysqli, $sql);
 
         if ($query) {
             echo "<script>window.location= 'cadastrarProduto.php'; alert('Cadastro realizado com sucesso') </script>";
