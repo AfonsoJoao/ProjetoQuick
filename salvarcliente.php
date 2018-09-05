@@ -30,12 +30,12 @@ $sql = "INSERT INTO cliente"
         . "'$telefone')";
 
 
-$query = mysqli_query($mysqli, $sql);
+$query = mysqli_query($con, $sql);
 
 if ($query) {
     echo "<script> window.location= 'index.html'; alert('Cadastro realizado com sucesso') </script>";
 
         
 }  else {
-    echo "<script>window.location= 'login.html'; alert('Erro na realização do cadastro') </script>";
+    echo "<script>window.location= 'login.php'; alert('Erro na realização do cadastro') </script>";
 }
