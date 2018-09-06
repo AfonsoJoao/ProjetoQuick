@@ -38,7 +38,7 @@ $imagem = $_FILES['imagem'];
                 . "'$novo_nome',"
                 . "NOW())";
 
-        $query = mysqli_query($mysqli, $sql);
+        $query = mysqli_query($con, $sql);
 
         if ($query) {
             echo "<script>window.location= 'cadastrarProduto.php'; alert('Cadastro realizado com sucesso') </script>";

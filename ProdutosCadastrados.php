@@ -69,8 +69,8 @@ $con = $mysqli->query($consulta) or die($mysqli->error);
                         <div class="mega-dropdown-menu">
                             <div class="w3ls_vegetables">
                                 <ul class="dropdown-menu drp-mnu">
-                                    <li><a href="login.html">Entrar</a></li> 
-                                    <li><a href="login.html">Cadastrar</a></li>
+                                    <li><a href="login.php">Entrar</a></li> 
+                                    <li><a href="cadastroclientes.php">Cadastrar</a></li>
                                     <li><a href="short-codes.html">Atalho</a></li>
                                 </ul>
                             </div>                  
@@ -158,7 +158,7 @@ $con = $mysqli->query($consulta) or die($mysqli->error);
                                 <td><img src="images/edit-Icon.png"></td>
                                 <td><img src="images/close_1.png"></td>
                             </tr>
-<?php } ?>
+                        <?php } ?>
                     </tbody>
                 </table>
             </div>
